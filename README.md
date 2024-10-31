@@ -1,8 +1,8 @@
 """
 Calculator App v1.1.0
 =====================
-Author: [Your Name]
-Date: [Today's Date]
+Author: [Bhalchandra Dhumal]
+Date: [30-10-2024]
 Version: 1.1.0
 Description:
 ------------
