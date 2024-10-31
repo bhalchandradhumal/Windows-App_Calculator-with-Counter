@@ -1,0 +1,49 @@
+Calculator App v1.1.0
+=====================
+Author [Bhalchandra Dhumal]
+Date [30-10-2024]
+Version 1.1.0
+Description
+------------
+This is a Python-based graphical calculator app built using the Tkinter library.
+The app provides basic arithmetic operations, a counting function to track the number 
+of numbers used in calculations, and a history feature to log previous calculations with timestamps.
+
+Features
+1. Standard Calculator Operations Supports addition, subtraction, multiplication, division, and parentheses for order of operations.
+2. Count Display Tracks the number of distinct numbers entered in each calculation.
+3. History Log Maintains a record of past calculations, shown in a scrollable frame with timestamps for easy tracking.
+4. Enhanced UI Includes color schemes for display, buttons, and labels to improve usability.
+
+Technical Requirements
+- Python Version 3.7+
+- Libraries Used Tkinter (standard library)
+
+Setup Instructions
+1. Clone the repository or download the script file.
+2. Install dependencies (Tkinter is usually included with Python by default).
+3. Run the script using
+   ```bash
+   python calculator_app v1.1.0.py
+
+
+
+
+To create an executable for Windows:
+Ensure PyInstaller is installed (pip install pyinstaller).
+Navigate to the script's directory.
+Run:bash
+Copy code:
+pyinstaller --onefile --windowed "calculator_app v1.1.0.py"
+
+The .exe file will be available in the dist directory.
+
+
+File Structure:
+calculator_app v1.1.0.py: Main calculator application code file.
+dist/: Contains the standalone executable after building with PyInstaller.
+Usage Instructions:
+
+Run the app and use the calculator as needed.
+Click = to see results, C to clear, and CE to delete the last entry.
+History and count of numbers used display in the designated sections.
